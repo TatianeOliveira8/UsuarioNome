@@ -25,9 +25,9 @@ npm run dev
 
 ### Frontend  
 ```bash
-cd frontend
+cd frontend/my-app
 npm install
-npm start
+npm run dev
 ```
 
 ## 🚀 Deploy para Produção
@@ -35,7 +35,7 @@ npm start
 Deploy na DigitalOcean usando OpenTofu:
 
 ```bash
-cd infrastructure
+cd infra
 tofu init
 tofu plan
 tofu apply
